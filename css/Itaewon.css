@@ -112,6 +112,53 @@ main h3 {
 }
 
 
+
+
+/******************/
+/*   개발 영역    */
+/******************/
+.raw {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.col-4 {
+  width 33.33%
+}
+.work {
+  margin-bottom: 10px;
+}
+.each-work {
+  overflow: hidden;
+  position; relative;
+  padding: 10px;
+}
+.col-4.work{
+  width: 50%;
+}
+.center-text {
+  text-align: center;
+}
+work-overlay {
+  position: absolute;
+  top: 0;
+  left: 0px;
+  color:#333;
+  z-index: 100;
+  width: 30%;
+  height:85%;
+  padding: 80px;
+  transition: all 03s ease-in-out;
+  background: #fff;
+  opacity: 0;
+}
+.each-work:hover .work-overlay{
+  left: -10px;
+  opacity: 0/.8;
+  transition: all 0.3s ease-in-out;
+}
+/*-------------------- 수정사항 여기까지--------------------*/
+
 /******************/
 /*   푸터 영역    */
 /******************/

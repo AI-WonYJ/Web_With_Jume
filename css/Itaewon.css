@@ -76,6 +76,7 @@ nav{
 .contents {
   width:1000px;
   margin:50px auto;  
+  padding: 0px 0px 0px 10px; <!--왼쪽 공간 띄우기-->
 }
 main > section {
   margin-top:60px;  
@@ -114,11 +115,14 @@ main h3 {
 /******************/
 /*   푸터 영역    */
 /******************/
-
-footer{   
+/***** FOOTER ******//***** FOOTER ******/
+footer {
   width:1200px;   /* 너비 */
   height:100px;  /* 높이 */
+  padding-top: 10px;
   border-top:2px solid #222;
+  text-align: center; <!--가운데 정렬-->
+  color: #879;
 }
 #bottomMenu{
   width:100%;
